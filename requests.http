@@ -16,3 +16,17 @@ Content-Type: application/json
 ### GET request to /register
 GET http://localhost:8080/register
 Content-Type: application/json
+
+### POST request to login a  user
+POST http://localhost:8080/user/login
+Content-Type: application/json
+
+{
+"userName": "randomUser123",
+"password": "password123",
+"role": "USER",
+"firstName": "John",
+"lastName": "Doe",
+"email": "randomuser123@example.com",
+"dateOfBirth": 19900101
+}

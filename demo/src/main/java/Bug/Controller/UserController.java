@@ -1,7 +1,8 @@
 package Bug.Controller;
 
-import Bug.Model.User;
-import Bug.Service.UserService;
+import Bug.Entity.User;
+import Bug.Repository.UserRepository;
+import Bug.Service.ServiceImpl.UserServiceImpl;
 import Bug.dto.UserDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -12,29 +13,29 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/user")
 public class UserController {
     @Autowired
-    private UserService userService;
+    private UserServiceImpl userServiceImpl;
+    @Autowired
+    private UserRepository userRepository;
 
+    //Sensitive Data Exposure: POST requests do not append data to the URL, whereas GET//
+    @PostMapping("/login")
+    public ResponseEntity<String> login(@RequestBody UserDto user) {
+        User existingUser = userServiceImpl.findByUsername(user.getUserName());
+        if( userRepository.checkPassword(user.getUserName(), user.getPassword())){
+            return ResponseEntity.ok("redirect:/dashboard") ;
+        } else {
 
-
-//    @PostMapping("/login")
-//    public ResponseEntity<String> login(@RequestBody UserDto userDto) {
-//        User user = userService.findByUsername(username);
-//        if (user != null && user.getPassword().equals(password)) {
-//            // Authentication successful
-//            return "redirect:/dashboard"; // or wherever you want to redirect after login
-//        } else {
-//            // Authentication failed
-//            return "login";
-//        }
-//    }
+            return ResponseEntity.status(409).body("Wrong username or password, please try again");
+        }
+    }
 
     @PostMapping("/register")
     public ResponseEntity<String> register(@RequestBody UserDto user) {
-        User existingUser = userService.findByUsername(user.getUserName());
+        User existingUser = userServiceImpl.findByUsername(user.getUserName());
         if (existingUser != null) {
             return ResponseEntity.status(409).body("Username already exists");
         }
-        userService.saveUser(user);
+        userServiceImpl.saveUser(user);
         return ResponseEntity.ok("Registration successful");
     }
 }

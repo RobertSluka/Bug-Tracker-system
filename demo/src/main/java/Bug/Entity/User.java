@@ -1,4 +1,4 @@
-    package Bug.Model;
+    package Bug.Entity;
 
     import jakarta.persistence.*;
     import lombok.AllArgsConstructor;
