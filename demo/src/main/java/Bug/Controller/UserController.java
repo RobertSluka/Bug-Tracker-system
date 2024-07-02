@@ -6,10 +6,11 @@ import Bug.Service.ServiceImpl.UserServiceImpl;
 import Bug.dto.UserDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-@Controller
+import java.util.List;
+@CrossOrigin("http://localhost:3000")
+@RestController
 @RequestMapping("/user")
 public class UserController {
     @Autowired
@@ -21,8 +22,8 @@ public class UserController {
     @PostMapping("/login")
     public ResponseEntity<String> login(@RequestBody UserDto user) {
         User existingUser = userServiceImpl.findByUsername(user.getUserName());
-        if( userRepository.checkPassword(user.getUserName(), user.getPassword())){
-            return ResponseEntity.ok("redirect:/dashboard") ;
+        if (userRepository.checkPassword(user.getUserName(), user.getPassword())) {
+            return ResponseEntity.ok("redirect:/dashboard");
         } else {
 
             return ResponseEntity.status(409).body("Wrong username or password, please try again");
@@ -37,5 +38,27 @@ public class UserController {
         }
         userServiceImpl.saveUser(user);
         return ResponseEntity.ok("Registration successful");
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<String> deleteUser(@PathVariable ("id") Long userId) {
+        UserDto existingUser = userServiceImpl.getUserById(userId);
+        if (existingUser == null) {
+            return ResponseEntity.status(409).body("Username does not exist");
+        } else {
+            userServiceImpl.removeUserById(userId);
+            return ResponseEntity.ok("User deleted successfully");
+        }
+    }
+
+    @GetMapping("/all")
+    public ResponseEntity<List<UserDto>> getAllUsers() {
+        List<UserDto> users = userServiceImpl.findAll();
+        return ResponseEntity.ok(users);
+    }
+    @PutMapping("/{id}")
+    public ResponseEntity<UserDto> updateUser(@PathVariable ("id") Long userId, @RequestBody UserDto updatedUser){
+        UserDto userDto = userServiceImpl.updateUser(userId,updatedUser);
+        return ResponseEntity.ok(userDto);
     }
 }

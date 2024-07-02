@@ -3,19 +3,31 @@ POST http://localhost:8080/user/register
 Content-Type: application/json
 
 {
-  "userName": "randomUser123",
+  "userName": "John11",
   "password": "password123",
-  "role": "USER",
+  "role": "ADMIN",
   "firstName": "John",
-  "lastName": "Doe",
+  "lastName": "Joe",
   "email": "randomuser123@example.com",
-  "dateOfBirth": 19900101
+  "dateOfBirth": 20111002
 }
 
-
-### GET request to /register
-GET http://localhost:8080/register
+### UPDATE request to update a user via his id
+PUT http://localhost:8080/user/1
 Content-Type: application/json
+
+{
+  "userName": "John1",
+  "password": "password123",
+  "role": "ADMIN",
+  "firstName": "John",
+  "lastName": "Joe",
+  "email": "randomuser123@example.com",
+  "dateOfBirth": "20111002"
+}
+
+### GET request to get all users
+GET http://localhost:8080/user
 
 ### POST request to login a  user
 POST http://localhost:8080/user/login
@@ -29,4 +41,32 @@ Content-Type: application/json
 "lastName": "Doe",
 "email": "randomuser123@example.com",
 "dateOfBirth": 19900101
+}
+
+### DELETE request to login a  user
+DELETE http://localhost:8080/user/delete/2
+Content-Type: application/json
+
+
+
+### POST request to add a new bug
+POST http://localhost:8080/bug/creation
+Content-Type: application/json
+
+{
+  "bugName": "Login Issue",
+  "priority": "HIGH",
+  "bugDate": "2024-06-25",
+  "projectName": "Bug Tracker System",
+  "bugType": "Functional",
+  "bugLevel": "Critical",
+  "assignToDeveloper": "JohnDoe",
+  "status": "Open"
+}
+### POST request to add a new bug
+GET http://localhost:8080/bug/allBugs
+Content-Type: application/json
+
+{
+
 }

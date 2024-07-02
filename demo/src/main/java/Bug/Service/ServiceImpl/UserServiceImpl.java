@@ -1,16 +1,16 @@
 package Bug.Service.ServiceImpl;
 
+import Bug.Exception.ResourceNotFoundException;
 import Bug.Mapper.UserMapper;
 import Bug.Entity.User;
 import Bug.Repository.UserRepository;
-import Bug.Service.UserService;
-import Bug.Service.UserService;
+
 import Bug.dto.UserDto;
 import lombok.AllArgsConstructor;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -31,14 +31,23 @@ public class UserServiceImpl implements Bug.Service.UserService {
         userRepository.save(user);
     }
 
-    public void removeDeveloperById(User developer) {
-        userRepository.deleteById(developer.getId());
+    public void removeUserById(Long userId) {
+        User user = userRepository.findById(userId).orElseThrow(
+                ()-> new ResourceNotFoundException("User doesn't exist with given id:" + userId)
+        );
+        userRepository.deleteById(user.getId());
 
     }
 
-    public Optional<User> getDeveloperById(Long id) {
-        return userRepository.findById(id);
+    @Override
+    public UserDto getUserById(Long id) {
+        User user = userRepository.findById(id)
+                .orElseThrow(()->
+                        new ResourceNotFoundException("User doesn't exist with given id :" + id));
+
+        return UserMapper.INSTANCE.userToUserDto(user);
     }
+
 
     public User findByUsername(String username) {
         return userRepository.findByUserName(username);
@@ -50,5 +59,23 @@ public class UserServiceImpl implements Bug.Service.UserService {
         return users.stream()
                 .map(UserMapper.INSTANCE::userToUserDto)
                 .collect(Collectors.toList());
+    }
+
+    @Override
+    public UserDto updateUser(Long userId, UserDto updatedUser) {
+        User user = userRepository.findById(userId).orElseThrow(
+                ()-> new ResourceNotFoundException("User doesn't exist with given id:" + userId)
+        );
+        user.setUserName(updatedUser.getUserName());
+        user.setPassword(updatedUser.getPassword());
+        user.setRole(updatedUser.getRole());
+        user.setFirstName(updatedUser.getFirstName());
+        user.setLastName(updatedUser.getLastName());
+        user.setEmail(updatedUser.getEmail());
+        user.setDateOfBirth(updatedUser.getDateOfBirth());
+
+        User updatedUserobj = userRepository.save(user);
+
+        return UserMapper.INSTANCE.userToUserDto(updatedUserobj);
     }
 }

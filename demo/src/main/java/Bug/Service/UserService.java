@@ -4,12 +4,12 @@ import Bug.Entity.User;
 import Bug.dto.UserDto;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface UserService {
     void saveUser(UserDto userDTO);
-    void removeDeveloperById(User developer);
-    Optional<User> getDeveloperById(Long id);
+    void removeUserById(Long userId);
+    UserDto getUserById(Long id);
     User findByUsername(String username);
     List<UserDto> findAll();
+    UserDto updateUser(Long userId, UserDto updatedUser);
 }
