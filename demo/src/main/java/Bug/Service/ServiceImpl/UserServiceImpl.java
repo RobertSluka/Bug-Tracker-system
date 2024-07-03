@@ -23,7 +23,6 @@ public class UserServiceImpl implements Bug.Service.UserService {
         User user = new User();
         user.setUserName(userDTO.getUserName());
         user.setPassword(userDTO.getPassword());
-        user.setRole(userDTO.getRole());
         user.setFirstName(userDTO.getFirstName());
         user.setLastName(userDTO.getLastName());
         user.setEmail(userDTO.getEmail());
@@ -68,7 +67,6 @@ public class UserServiceImpl implements Bug.Service.UserService {
         );
         user.setUserName(updatedUser.getUserName());
         user.setPassword(updatedUser.getPassword());
-        user.setRole(updatedUser.getRole());
         user.setFirstName(updatedUser.getFirstName());
         user.setLastName(updatedUser.getLastName());
         user.setEmail(updatedUser.getEmail());

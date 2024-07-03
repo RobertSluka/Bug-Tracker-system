@@ -9,7 +9,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 
 @SpringBootApplication
-@EnableWebSecurity
 @EnableJpaRepositories(basePackages = {"Bug.Repository"})
 public class BugTrackerSystemApplication {
 

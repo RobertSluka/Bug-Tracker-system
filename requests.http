@@ -1,4 +1,16 @@
 ### POST request to register a new user
+POST http://localhost:8080/api/auth/register
+Content-Type: application/json
+
+{
+  "userName": "John11",
+  "password": "password123"
+}
+
+
+
+
+### POST request to register a new user
 POST http://localhost:8080/user/register
 Content-Type: application/json
 

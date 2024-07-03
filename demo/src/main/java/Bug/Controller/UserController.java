@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+
 @CrossOrigin("http://localhost:3000")
 @RestController
 @RequestMapping("/user")
@@ -18,7 +19,7 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
-    //Sensitive Data Exposure: POST requests do not append data to the URL, whereas GET//
+
     @PostMapping("/login")
     public ResponseEntity<String> login(@RequestBody UserDto user) {
         User existingUser = userServiceImpl.findByUsername(user.getUserName());
@@ -41,7 +42,7 @@ public class UserController {
     }
 
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<String> deleteUser(@PathVariable ("id") Long userId) {
+    public ResponseEntity<String> deleteUser(@PathVariable("id") Long userId) {
         UserDto existingUser = userServiceImpl.getUserById(userId);
         if (existingUser == null) {
             return ResponseEntity.status(409).body("Username does not exist");
@@ -56,9 +57,10 @@ public class UserController {
         List<UserDto> users = userServiceImpl.findAll();
         return ResponseEntity.ok(users);
     }
+
     @PutMapping("/{id}")
-    public ResponseEntity<UserDto> updateUser(@PathVariable ("id") Long userId, @RequestBody UserDto updatedUser){
-        UserDto userDto = userServiceImpl.updateUser(userId,updatedUser);
+    public ResponseEntity<UserDto> updateUser(@PathVariable("id") Long userId, @RequestBody UserDto updatedUser) {
+        UserDto userDto = userServiceImpl.updateUser(userId, updatedUser);
         return ResponseEntity.ok(userDto);
     }
 }
