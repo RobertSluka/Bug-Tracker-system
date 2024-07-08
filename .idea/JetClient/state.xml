@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="environmentGroups">
+            <list>
+              <environmentGroupState>
+                <option name="name" value="Default" />
+              </environmentGroupState>
+            </list>
+          </option>
+          <option name="id" value="87a19424-283c-4a6d-bf63-a9f074c10fc8" />
+          <option name="name" value="Http_request" />
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="autoSync" value="true" />
+              <option name="folderPath" value="C:\Users\RTSA\OneDrive - COWI\Desktop\Bug_tracker_system\.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+          <option name="variables">
+            <variablesState>
+              <option name="json" value="{POST http://localhost:8080/user/register&#10;Content-Type: application/json&#10;&#10;{&#10;  &quot;username&quot;: &quot;randomUser123&quot;,&#10;  &quot;password&quot;: &quot;password123&quot;,&#10;  &quot;role&quot;: &quot;USER&quot;,&#10;  &quot;firstName&quot;: &quot;John&quot;,&#10;  &quot;lastName&quot;: &quot;Doe&quot;,&#10;  &quot;email&quot;: &quot;randomuser123@example.com&quot;,&#10;  &quot;dateOfBirth&quot;: 19900101&#10;}&#10;  &#10;}" />
+            </variablesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
+    <option name="id" value="b25f6743-18ab-4d87-83b9-359dff7989ae" />
+    <option name="version" value="3" />
+  </component>
+</project>
