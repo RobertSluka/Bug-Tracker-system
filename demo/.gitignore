@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore SecurityConstants.java file
+src/main/java/Bug/Security/SecurityConstants.java
