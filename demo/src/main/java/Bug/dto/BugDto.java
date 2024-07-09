@@ -1,4 +1,4 @@
-package Bug.dto;
+package main.java.Bug.dto;
 
 
 

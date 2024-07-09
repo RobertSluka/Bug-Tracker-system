@@ -1,9 +1,9 @@
-package Bug.Controller;
+package main.java.Bug.Controller;
 
-import Bug.Entity.User;
-import Bug.Repository.UserRepository;
-import Bug.Service.ServiceImpl.UserServiceImpl;
-import Bug.dto.UserDto;
+import main.java.Bug.Entity.User;
+import main.java.Bug.Repository.UserRepository;
+import main.java.Bug.Service.UserServiceImpl;
+import main.java.Bug.dto.UserDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -15,14 +15,14 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
     @Autowired
-    private UserServiceImpl userServiceImpl;
+    private UserServiceImpl userService;
     @Autowired
     private UserRepository userRepository;
 
 
     @PostMapping("/login")
     public ResponseEntity<String> login(@RequestBody UserDto user) {
-        User existingUser = userServiceImpl.findByUsername(user.getUserName());
+        User existingUser = userService.findByUsername(user.getUserName());
         if (userRepository.checkPassword(user.getUserName(), user.getPassword())) {
             return ResponseEntity.ok("redirect:/dashboard");
         } else {
@@ -33,34 +33,34 @@ public class UserController {
 
     @PostMapping("/register")
     public ResponseEntity<String> register(@RequestBody UserDto user) {
-        User existingUser = userServiceImpl.findByUsername(user.getUserName());
+        User existingUser = userService.findByUsername(user.getUserName());
         if (existingUser != null) {
             return ResponseEntity.status(409).body("Username already exists");
         }
-        userServiceImpl.saveUser(user);
+        userService.saveUser(user);
         return ResponseEntity.ok("Registration successful");
     }
 
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<String> deleteUser(@PathVariable("id") Long userId) {
-        UserDto existingUser = userServiceImpl.getUserById(userId);
+        UserDto existingUser = userService.getUserById(userId);
         if (existingUser == null) {
             return ResponseEntity.status(409).body("Username does not exist");
         } else {
-            userServiceImpl.removeUserById(userId);
+            userService.removeUserById(userId);
             return ResponseEntity.ok("User deleted successfully");
         }
     }
 
     @GetMapping("/all")
     public ResponseEntity<List<UserDto>> getAllUsers() {
-        List<UserDto> users = userServiceImpl.findAll();
+        List<UserDto> users = userService.findAll();
         return ResponseEntity.ok(users);
     }
 
     @PutMapping("/{id}")
     public ResponseEntity<UserDto> updateUser(@PathVariable("id") Long userId, @RequestBody UserDto updatedUser) {
-        UserDto userDto = userServiceImpl.updateUser(userId, updatedUser);
+        UserDto userDto = userService.updateUser(userId, updatedUser);
         return ResponseEntity.ok(userDto);
     }
 }

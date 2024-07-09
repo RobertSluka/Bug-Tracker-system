@@ -1,7 +1,7 @@
-package Bug.Mapper;
+package main.java.Bug.Mapper;
 
-import Bug.Entity.User;
-import Bug.dto.UserDto;
+import main.java.Bug.Entity.User;
+import main.java.Bug.dto.UserDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

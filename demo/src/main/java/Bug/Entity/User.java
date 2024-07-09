@@ -1,4 +1,4 @@
-    package Bug.Entity;
+    package main.java.Bug.Entity;
 
     import jakarta.persistence.*;
     import lombok.AllArgsConstructor;

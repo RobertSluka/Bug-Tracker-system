@@ -1,7 +1,6 @@
-package Bug.Repository;
+package main.java.Bug.Repository;
 
-import Bug.Entity.Bug;
-import Bug.Entity.User;
+import main.java.Bug.Entity.Bug;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
