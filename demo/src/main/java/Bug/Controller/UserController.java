@@ -21,7 +21,7 @@ public class UserController {
 
 
     @PostMapping("/login")
-    public ResponseEntity<String> login(@RequestBody UserDto user) {
+    public ResponseEntity<String> login(@RequestBody User user) {
         User existingUser = userService.findByUsername(user.getUserName());
         if (userRepository.checkPassword(user.getUserName(), user.getPassword())) {
             return ResponseEntity.ok("redirect:/dashboard");
