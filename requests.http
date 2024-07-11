@@ -30,7 +30,6 @@ Content-Type: application/json
 {
   "userName": "John1",
   "password": "password123",
-  "role": "ADMIN",
   "firstName": "John",
   "lastName": "Joe",
   "email": "randomuser123@example.com",
