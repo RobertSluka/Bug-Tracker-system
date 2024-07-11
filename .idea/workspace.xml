@@ -4,91 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f203f2db-569e-4225-8032-58be7e128a24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/config/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/main/java/Bug/BugTrackerSystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Bug_tracker_system.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JetClient/state.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a3ebde1-b058-4c2f-94e7-5e9eddd18460.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1a3ebde1-b058-4c2f-94e7-5e9eddd18460/storage_v2/_src_/schema/bugs.f1AuAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/887c28e7-9561-4db9-8f9b-2c8c3310398d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/887c28e7-9561-4db9-8f9b-2c8c3310398d/storage_v2/_src_/schema/bugs.f1AuAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/887c28e7-9561-4db9-8f9b-2c8c3310398d/storage_v2/_src_/schema/bugsystem.o0naTw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/99d27451-c3a1-4e23-8b5f-6b5aed905c0b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/99d27451-c3a1-4e23-8b5f-6b5aed905c0b/storage_v2/_src_/schema/bugsystem.o0naTw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-06-26T112617.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-06-26T113955.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-06-26T114031.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-06-26T122725.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-06-26T122751.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-06-26T122854.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-06-26T123013.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-06-26T124352.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-06-26T124453.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-06-26T124553.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-06-26T125401.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-06-26T130449.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T122421.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T122431.409.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T122817.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T122844.409.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T122932.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T123009.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T123014.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T123107.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T123152.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T123345.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T145612.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T151813.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T151844.409.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T152502.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T152552.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T152913.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T152919.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-07-09T155411.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/BugTrackerSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/BugTrackerSystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Controller/BugController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Controller/BugController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/dto/BugDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/dto/BugDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requests.http" beforeDir="false" afterPath="$PROJECT_DIR$/requests.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/BugTrackerSystemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/BugTrackerSystemApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Controller/BugController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Controller/BugController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Controller/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Entity/Bug.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Entity/Bug.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Entity/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Exception/ResourceNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Exception/ResourceNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Mapper/BugMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Mapper/BugMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Mapper/BugMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Mapper/BugMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Mapper/UserMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Mapper/UserMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Repository/BugRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Repository/BugRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Service/BugService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Service/BugService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Service/BugServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Service/BugServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/Service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/dto/BugDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/dto/BugDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Bug/dto/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/main/java/Bug/Mapper/BugMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/main/java/Bug/Mapper/BugMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/main/java/Bug/Mapper/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/main/java/Bug/Mapper/UserMapperImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="f203f2db-569e-4225-8032-58be7e128a24" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720619719288</updated>
       <workItem from="1720619720875" duration="1153000" />
-      <workItem from="1720685557188" duration="4909000" />
+      <workItem from="1720685557188" duration="5314000" />
     </task>
     <servers />
   </component>
