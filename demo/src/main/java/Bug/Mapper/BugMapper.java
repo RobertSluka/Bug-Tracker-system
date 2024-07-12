@@ -1,4 +1,4 @@
-package main.java.Bug.Mapper;
+package java.Bug.Mapper;
 
 import main.java.Bug.Entity.Bug;
 import main.java.Bug.dto.BugDto;

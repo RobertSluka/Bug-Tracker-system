@@ -1,8 +1,9 @@
-    package main.java.Bug.Entity;
+    package java.Bug.Entity;
 
     import jakarta.persistence.*;
     import lombok.*;
 
+    import javax.management.relation.Role;
     import java.util.ArrayList;
     import java.util.Date;
     import java.util.List;

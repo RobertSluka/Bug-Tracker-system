@@ -1,4 +1,4 @@
-package main.java.Bug.Service;
+package java.Bug.Service;
 
 
 import main.java.Bug.Entity.User;

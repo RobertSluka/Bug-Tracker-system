@@ -1,4 +1,4 @@
-package main.java.Bug.Repository;
+package java.Bug.Repository;
 
 import main.java.Bug.Entity.Bug;
 import org.springframework.data.jpa.repository.JpaRepository;

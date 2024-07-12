@@ -1,4 +1,4 @@
-package main.java.Bug.dto;
+package java.Bug.dto;
 
 import lombok.Getter;
 import lombok.Setter;

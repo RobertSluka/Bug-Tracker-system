@@ -1,4 +1,4 @@
-package main.java.Bug.Controller;
+package java.Bug.Controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;

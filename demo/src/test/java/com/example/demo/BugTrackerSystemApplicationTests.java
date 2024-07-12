@@ -1,11 +1,13 @@
-//package com.example.demo;
-//
-//
-//@SpringBootTest
-//class BugTrackerSystemApplicationTests {
-//
-//	@Test
-//	void contextLoads() {
-//	}
-//
-//}
+package test.java.com.example.demo;
+
+
+import org.junit.Test;
+
+public class BugTrackerSystemApplicationTests {
+
+	@Test
+    public void contextLoads() {
+	}
+
+
+}

@@ -1,10 +1,10 @@
-package main.java.Bug.Service;
+package java.Bug.Service;
 
-import main.java.Bug.Entity.Bug;
-import main.java.Bug.Entity.User;
-import main.java.Bug.dto.BugDto;
-import main.java.Bug.dto.UserDto;
 
+import java.Bug.Entity.Bug;
+import java.Bug.Entity.User;
+import java.Bug.dto.BugDto;
+import java.Bug.dto.UserDto;
 import java.util.List;
 
 public interface BugService {

@@ -1,4 +1,4 @@
-//package Bug.Controller;
+package java.Bug.Controller;//package Bug.Controller;
 //
 //import Bug.Entity.Role;
 //import Bug.Entity.User;

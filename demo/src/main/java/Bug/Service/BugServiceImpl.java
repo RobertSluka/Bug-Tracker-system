@@ -1,15 +1,16 @@
-package main.java.Bug.Service;
+package java.Bug.Service;
 
 import lombok.AllArgsConstructor;
-import main.java.Bug.Entity.Bug;
-import main.java.Bug.Entity.User;
-import main.java.Bug.Mapper.BugMapper;
-import main.java.Bug.Repository.BugRepository;
-import main.java.Bug.dto.BugDto;
-import main.java.Bug.dto.UserDto;
+
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
+import java.Bug.Entity.Bug;
+import java.Bug.Entity.User;
+import java.Bug.Mapper.BugMapper;
+import java.Bug.Repository.BugRepository;
+import java.Bug.dto.BugDto;
+import java.Bug.dto.UserDto;
 import java.util.List;
 import java.util.stream.Collectors;
 

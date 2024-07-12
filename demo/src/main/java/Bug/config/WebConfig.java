@@ -1,4 +1,4 @@
-//package Bug.config;
+package java.Bug.config;//package Bug.config;
 //
 //import org.springframework.context.annotation.Bean;
 //import org.springframework.context.annotation.Configuration;

@@ -4,7 +4,83 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f203f2db-569e-4225-8032-58be7e128a24" name="Changes" comment="" />
+    <list default="true" id="f203f2db-569e-4225-8032-58be7e128a24" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/java/com/example/demo/UserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bee0a3df-8463-45f6-88d2-4c9d098e1aa5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bee0a3df-8463-45f6-88d2-4c9d098e1aa5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/demo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/BugTrackerSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/BugTrackerSystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Controller/BugController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Controller/BugController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Entity/Bug.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Entity/Bug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Mapper/BugMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Mapper/BugMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Repository/BugRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Repository/BugRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Security/CustomUsertDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Security/CustomUsertDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Security/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Security/JWTAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Security/JWTGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Security/JWTGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Security/JwtAuthEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Security/JwtAuthEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Security/SecurityConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Security/SecurityConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Service/BugService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Service/BugService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Service/BugServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Service/BugServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/Service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/Service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/config/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/config/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/dto/AuthResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/dto/AuthResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/dto/BugDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/dto/BugDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/dto/LoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/dto/LoginDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/dto/RegisterDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/dto/RegisterDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/Bug/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/Bug/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/BugTrackerSystemApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/BugTrackerSystemApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/UserRepositoryTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requests.http" beforeDir="false" afterPath="$PROJECT_DIR$/requests.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/BugTrackerSystemApplication$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/BugTrackerSystemApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Controller/BugController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Entity/Bug.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Mapper/BugMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Mapper/BugMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Mapper/UserMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Repository/BugRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Service/BugService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Service/BugServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/Service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/config/DataSourceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/dto/BugDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Bug/dto/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/main/java/Bug/Mapper/BugMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/main/java/Bug/Mapper/BugMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/main/java/Bug/Mapper/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/main/java/Bug/Mapper/UserMapperImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +90,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -29,43 +106,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Unnamed.executor": "Run",
-    "HTTP Request.requests | GET request to get all users.executor": "Run",
-    "HTTP Request.requests | POST request to register a new user#2.executor": "Run",
-    "HTTP Request.requests | UPDATE request to update a user via his id.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.BugTrackerSystemApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.requests | GET request to get all users.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.requests | POST request to register a new user#1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.requests | POST request to register a new user#2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.requests | UPDATE request to update a user via his id.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BugTrackerSystemApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BugTrackerSystemApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.BugTrackerSystemApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/RTSA/OneDrive - COWI/Desktop/Bugsystem&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Unnamed">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.Bug.BugTrackerSystemApplication" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\RTSA\OneDrive - COWI\Desktop\Bug_tracker_system\demo\src\test\java\com\example\demo\repository" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main.java.Bug" />
+      <recent name="main.java.com.example.demo.Bug" />
+      <recent name="main.java" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.java.com.example.demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BugTrackerSystemApplication">
+    <configuration name="BugTrackerSystemApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.example.demo.Bug.BugTrackerSystemApplication" />
       <module name="demo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="requests | GET request to get all users" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requests.http" index="4" requestIdentifier="GET request to get all users" runType="Run single request">
+    <configuration name="requests | POST request to register a new user#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requests.http" requestIdentifier="POST request to register a new user#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="requests | POST request to register a new user#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requests.http" index="2" requestIdentifier="POST request to register a new user#2" runType="Run single request">
@@ -73,6 +174,21 @@
     </configuration>
     <configuration name="requests | UPDATE request to update a user via his id" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requests.http" index="3" requestIdentifier="UPDATE request to update a user via his id" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration name="BugTrackerSystemApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.example.demo.BugTrackerSystemApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Bug_tracker_system" />
@@ -87,26 +203,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BugTrackerSystemApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.BugTrackerSystemApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BugTrackerSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.Bug.BugTrackerSystemApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.com.example.demo.Bug.BugTrackerSystemApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Unnamed" />
-      <item itemvalue="HTTP Request.requests | GET request to get all users" />
+      <item itemvalue="Application.BugTrackerSystemApplication" />
+      <item itemvalue="HTTP Request.requests | POST request to register a new user#1" />
       <item itemvalue="HTTP Request.requests | POST request to register a new user#2" />
       <item itemvalue="HTTP Request.requests | UPDATE request to update a user via his id" />
+      <item itemvalue="JUnit.BugTrackerSystemApplicationTests" />
       <item itemvalue="Spring Boot.BugTrackerSystemApplication" />
+      <item itemvalue="Spring Boot.BugTrackerSystemApplication (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.requests | UPDATE request to update a user via his id" />
+        <item itemvalue="Spring Boot.BugTrackerSystemApplication (1)" />
+        <item itemvalue="JUnit.BugTrackerSystemApplicationTests" />
         <item itemvalue="HTTP Request.requests | POST request to register a new user#2" />
-        <item itemvalue="HTTP Request.requests | GET request to get all users" />
+        <item itemvalue="HTTP Request.requests | UPDATE request to update a user via his id" />
+        <item itemvalue="HTTP Request.requests | POST request to register a new user#1" />
       </list>
     </recent_temporary>
   </component>
@@ -127,11 +261,21 @@
       <option name="presentableId" value="Default" />
       <updated>1720619719288</updated>
       <workItem from="1720619720875" duration="1153000" />
-      <workItem from="1720685557188" duration="5314000" />
+      <workItem from="1720685557188" duration="14126000" />
+      <workItem from="1720768199524" duration="1565000" />
+      <workItem from="1720770188331" duration="3339000" />
+      <workItem from="1720773715130" duration="35000" />
+      <workItem from="1720774120441" duration="706000" />
+      <workItem from="1720779637287" duration="1539000" />
+      <workItem from="1720803199683" duration="376000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

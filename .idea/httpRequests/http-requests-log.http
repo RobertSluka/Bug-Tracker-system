@@ -1,3 +1,203 @@
+POST http://localhost:8080/user/register
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=35AA5A78968CF60F8EF792CB459988FC
+
+{
+  "userName": "Ady",
+  "password": "add123",
+  "firstName": "Adam",
+  "lastName": "Ad",
+  "email": "adam@example.com",
+  "dateOfBirth": 20111002
+}
+
+<> 2024-07-11T171519.200.txt
+
+###
+
+PUT http://localhost:8080/user/1
+Content-Type: application/json
+Content-Length: 167
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=35AA5A78968CF60F8EF792CB459988FC
+
+{
+  "userName": "John1",
+  "password": "password123",
+  "firstName": "John",
+  "lastName": "Joe",
+  "email": "randomuser123@example.com",
+  "dateOfBirth": "20111002"
+}
+
+###
+
+POST http://localhost:8080/api/auth/login
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=35AA5A78968CF60F8EF792CB459988FC
+cookie: JSESSIONID=35AA5A78968CF60F8EF792CB459988FC
+content-length: 51
+
+{
+  "userName": "roslu",
+  "password": "password"
+}
+
+<> 2024-07-11T170952.200.html
+
+###
+
+PUT http://localhost:8080/user/1
+Content-Type: application/json
+Content-Length: 167
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=5C32E883E2D591F9E7E37BC5399C76B1
+
+{
+  "userName": "John1",
+  "password": "password123",
+  "firstName": "John",
+  "lastName": "Joe",
+  "email": "randomuser123@example.com",
+  "dateOfBirth": "20111002"
+}
+
+###
+
+POST http://localhost:8080/user/register
+Content-Type: application/json
+Content-Length: 158
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=5C32E883E2D591F9E7E37BC5399C76B1
+
+{
+  "userName": "John12",
+  "password": "password123",
+  "firstName": "Johny",
+  "lastName": "Joy",
+  "email": "john@example.com",
+  "dateOfBirth": 20111002
+}
+
+<> 2024-07-11T162645.200.txt
+
+###
+
+POST http://localhost:8080/user/register
+Content-Type: application/json
+Content-Length: 158
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=5C32E883E2D591F9E7E37BC5399C76B1
+
+{
+  "userName": "John12",
+  "password": "password123",
+  "firstName": "Johny",
+  "lastName": "Joy",
+  "email": "john@example.com",
+  "dateOfBirth": 20111002
+}
+
+<> 2024-07-11T162525.200.txt
+
+###
+
+POST http://localhost:8080/user/register
+Content-Type: application/json
+Content-Length: 158
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=5C32E883E2D591F9E7E37BC5399C76B1
+
+{
+  "userName": "John12",
+  "password": "password123",
+  "firstName": "Johny",
+  "lastName": "Joy",
+  "email": "john@example.com",
+  "dateOfBirth": 20111002
+}
+
+<> 2024-07-11T162515.409.txt
+
+###
+
+POST http://localhost:8080/user/register
+Content-Type: application/json
+Content-Length: 158
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=5C32E883E2D591F9E7E37BC5399C76B1
+
+{
+  "userName": "John12",
+  "password": "password123",
+  "firstName": "Johny",
+  "lastName": "Joy",
+  "email": "john@example.com",
+  "dateOfBirth": 20111002
+}
+
+<> 2024-07-11T162426.200.txt
+
+###
+
+POST http://localhost:8080/user/register
+Content-Type: application/json
+Content-Length: 158
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=5C32E883E2D591F9E7E37BC5399C76B1
+
+{
+  "userName": "John12",
+  "password": "password123",
+  "firstName": "Johny",
+  "lastName": "Joy",
+  "email": "john@example.com",
+  "dateOfBirth": 20111002
+}
+
+<> 2024-07-11T162028.200.txt
+
+###
+
+POST http://localhost:8080/user/register
+Content-Type: application/json
+Content-Length: 158
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "userName": "John12",
+  "password": "password123",
+  "firstName": "Johny",
+  "lastName": "Joy",
+  "email": "john@example.com",
+  "dateOfBirth": 20111002
+}
+
+###
+
 PUT http://localhost:8080/user/1
 Content-Type: application/json
 Content-Length: 167

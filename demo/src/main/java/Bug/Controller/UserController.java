@@ -1,13 +1,12 @@
-package main.java.Bug.Controller;
+package java.Bug.Controller;
 
-import main.java.Bug.Entity.User;
-import main.java.Bug.Repository.UserRepository;
-import main.java.Bug.Service.UserServiceImpl;
-import main.java.Bug.dto.UserDto;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.Bug.Repository.UserRepository;
+import java.Bug.Service.UserServiceImpl;
 import java.util.List;
 
 @CrossOrigin("http://localhost:3000")

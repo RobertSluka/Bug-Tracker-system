@@ -1,12 +1,13 @@
 package main.java.Bug.Mapper;
 
 import javax.annotation.processing.Generated;
-import main.java.Bug.Entity.User;
-import main.java.Bug.dto.UserDto;
+import main.java.com.example.demo.Bug.Entity.User;
+import main.java.com.example.demo.Bug.Mapper.UserMapper;
+import main.java.com.example.demo.Bug.dto.UserDto;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-07-11T11:23:49+0200",
+    date = "2024-07-12T10:21:15+0200",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 22.0.1 (Oracle Corporation)"
 )
 public class UserMapperImpl implements UserMapper {

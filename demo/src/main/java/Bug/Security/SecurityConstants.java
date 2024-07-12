@@ -1,4 +1,4 @@
-//package Bug.Security;
+package java.Bug.Security;//package Bug.Security;
 //
 //public class SecurityConstants {
 //

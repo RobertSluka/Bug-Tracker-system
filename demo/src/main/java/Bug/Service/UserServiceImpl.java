@@ -1,4 +1,4 @@
-package main.java.Bug.Service;
+package java.Bug.Service;
 
 import lombok.AllArgsConstructor;
 import main.java.Bug.Entity.User;
@@ -8,6 +8,7 @@ import main.java.Bug.Repository.UserRepository;
 import main.java.Bug.dto.UserDto;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
+import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -15,14 +16,14 @@ import java.util.stream.Collectors;
 @Service
 @AllArgsConstructor
 public class UserServiceImpl implements UserService {
-
+    private final PasswordEncoder  passwordEncoder;
     private final UserRepository userRepository;
 
     @Override
     public void saveUser(UserDto userDto) {
         User user = new User();
         user.setUserName(userDto.getUserName());
-        user.setPassword(userDto.getPassword());
+        user.setPassword(passwordEncoder.encode(userDto.getPassword()));
         user.setFirstName(userDto.getFirstName());
         user.setLastName(userDto.getLastName());
         user.setEmail(userDto.getEmail());
@@ -61,7 +62,7 @@ public class UserServiceImpl implements UserService {
                 () -> new ResourceNotFoundException("User doesn't exist with given id: " + userId)
         );
         user.setUserName(updatedUser.getUserName());
-        user.setPassword(updatedUser.getPassword());
+        user.setPassword(passwordEncoder.encode(updatedUser.getPassword()));
         user.setFirstName(updatedUser.getFirstName());
         user.setLastName(updatedUser.getLastName());
         user.setEmail(updatedUser.getEmail());
@@ -78,4 +79,14 @@ public class UserServiceImpl implements UserService {
         );
         userRepository.deleteById(user.getId());
     }
-}
+    }
+//    @Override
+//    public Boolean checkRole(Long userId, String role) throws AccessDeniedException {
+//        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+//        if (authentication.getAuthorities().stream().anyMatch(a -> a.getAuthority().equals("ROLE_" + role))) {
+//            return true;
+//        } else {
+//            throw new AccessDeniedException("User doesn't have the required role.");
+//        }
+//    }
+//}

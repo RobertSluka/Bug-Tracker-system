@@ -1,4 +1,4 @@
-//package main.java.Bug.Repository;
+package java.Bug.Repository;//package main.java.Bug.Repository;
 //
 //
 //import org.springframework.data.jpa.repository.JpaRepository;
